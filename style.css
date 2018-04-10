@@ -547,10 +547,10 @@ a:hover, a:active {
 	left: auto;
 }
 
-.main-navigation li {
+/* .main-navigation li {
 	float: left;
 	position: relative;
-}
+} */
 
 .main-navigation a {
 	display: block;
@@ -568,7 +568,7 @@ a:hover, a:active {
 		display: none;
 	}
 	.main-navigation ul {
-		display: block;
+		display: flex;
 	}
 }
 
@@ -659,7 +659,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-.clear:before,
+/* .clear:before,
 .clear:after,
 .entry-content:before,
 .entry-content:after,
@@ -683,7 +683,7 @@ a:hover, a:active {
 .site-content:after,
 .site-footer:after {
 	clear: both;
-}
+} */
 
 /*--------------------------------------------------------------
 # Widgets
