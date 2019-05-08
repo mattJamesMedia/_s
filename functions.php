@@ -199,6 +199,14 @@ function filter_ptags_on_images($content){
 
 add_filter('the_content', 'filter_ptags_on_images');
 
+/**
+ * Stop Wordpress from adding <p> and <br> tags
+ */
+
+remove_filter( 'the_content', 'wpautop' );
+
+remove_filter( 'the_excerpt', 'wpautop' );
+
 function add_file_types_to_uploads($file_types){
 	$new_filetypes = array();
 	$new_filetypes['svg'] = 'image/svg+xml';
