@@ -152,7 +152,7 @@ function _s_scripts() {
 	/**
 	 * Uncomment below function if you want to write custom JS
 	 */
-	// wp_enqueue_script( '_s-script', get_template_directory_uri() . '/js/script.js', array(), '20200429', true );
+	wp_enqueue_script( '_s-script', get_template_directory_uri() . '/js/script.js', array(), '20200429', true );
 	/**
 	 * Uncomment below function if you want to write custom JS and use jQuery
 	 */
